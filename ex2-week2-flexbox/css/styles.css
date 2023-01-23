@@ -1,12 +1,6 @@
 /* BODY */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 body {
-	
+	background-color: #fff;
 }
 
 .container {
@@ -22,7 +16,6 @@ body {
 
 /* HEADER */
 header {
-	/* background-color: white; */
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
@@ -30,9 +23,9 @@ header {
 
 /* TYPEOGRAPHY */ 
 h1{
+	padding: 10px 0px;
 	font-size: 50px;
 	font-weight: bold;
-	padding: 10px 0px;
 }
 h2 {
 	padding-top: 20px;
@@ -46,11 +39,10 @@ h2 {
 .flexbox {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 30px;
+	gap: 43px;
 }
 .flexbox section {
 	background-color: white;
-	width: 300px;
 	padding-bottom: 10px;
 	border: 2px solid black;
 }
