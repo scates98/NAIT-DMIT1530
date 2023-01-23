@@ -1,0 +1,44 @@
+/* BODY */
+body {
+	background-color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #000000;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	margin:0 auto;
+	width: 960px;
+	text-align: center;
+}
+
+/* TYPOGRAPHY */
+/* Set font styles for paragraphs first so other elements can inherit */
+p {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+/* HEADER ELEMENTS */
+header {
+	/* Margins and padding do not get applied to inline elements 
+		Use inline-block to get things to line up */
+	display: inline-block;
+}
+
+/* BODY ELEMENTS */
+
+
